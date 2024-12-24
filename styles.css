@@ -1,0 +1,120 @@
+body {
+  background-color: #181818;
+}
+body {
+  font-family: 'Courier New', monospace;
+  color: white;
+  font-size: 20px;
+}
+
+custom-header {
+  font-size: 20px;
+  display: block;
+  margin: auto;
+  width: 62%;
+}
+
+custom-header p {
+  margin: 0;
+  padding: 0;
+}
+
+green-text {
+  color: lightgreen;
+}
+
+blue-text {
+  color: cornflowerblue;
+}
+
+location-text {
+  color: darkturquoise;
+}
+
+string-text {
+  color: gold;
+}
+
+array-text {
+  color: coral;
+}
+
+language-text {
+  color: coral;
+}
+
+name-text {
+  color: gold;
+}
+
+job-text {
+  color: lightpink;
+}
+
+main-body {
+  margin: auto;
+  max-width: 50%;
+  width: 50%;
+  display: block;
+}
+
+a {
+  color: cornflowerblue;
+}
+
+
+/*blinking cursor, taken from https://codepen.io/ArtemGordinsky/pen/DgyQKy*/
+.blinking-cursor {
+  font-weight: 100;
+  color: white;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
