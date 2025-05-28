@@ -11,12 +11,13 @@ custom-header {
   font-size: 20px;
   display: block;
   margin: auto;
-  width: 62%;
+  width: max(62vw, 400px)
 }
 
 custom-header p {
   margin: 0;
   padding: 0;
+  text-indent: 11em hanging;
 }
 
 green-text {
@@ -53,8 +54,8 @@ job-text {
 
 main-body {
   margin: auto;
-  max-width: 50%;
-  width: 50%;
+  /*max-width: 50%;*/
+  width: max(50vw, 400px);
   display: block;
 }
 
