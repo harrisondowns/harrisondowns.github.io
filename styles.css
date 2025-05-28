@@ -4,14 +4,14 @@ body {
 body {
   font-family: 'Courier New', monospace;
   color: white;
-  font-size: 20px;
+  font-size: max(1.5vw, 20px);
 }
 
 custom-header {
-  font-size: 20px;
+  font-size: max(1.5vw, 20px);
   display: block;
   margin: auto;
-  width: max(62vw, 400px)
+  width: max(62vw, 500px);
 }
 
 custom-header p {
@@ -55,7 +55,7 @@ job-text {
 main-body {
   margin: auto;
   /*max-width: 50%;*/
-  width: max(50vw, 400px);
+  width: max(50vw, 500px);
   display: block;
 }
 
